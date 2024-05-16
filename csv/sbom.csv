@@ -1,7 +1,7 @@
 id,package,Licence
 1,pkg:npm/https-proxy-agent@5.0.1,MIT
 2,pkg:npm/human-signals@2.1.0,Apache-2.0
-3,pkg:npm/humanize-ms@1.2.1,MIT
+3,pkg:npm/humanize-ms@1.2.1,MPL-2.0
 4,pkg:npm/iconv-lite@0.4.24,MIT
 5,pkg:npm/iconv-lite@0.6.3,MIT
 6,pkg:npm/icss-utils@5.1.0,ISC
