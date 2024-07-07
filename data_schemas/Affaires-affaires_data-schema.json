@@ -1,0 +1,64 @@
+{
+  "fields": [
+    {
+      "name": "Titre",
+      "title": "Nom de l'affaire",
+      "description": "Nom de l'affaire proposé par Anticor",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "title": "Description",
+      "description": "Résumé de l'affaire",
+      "type": "string"
+    },
+       {
+      "name": "Agrément",
+      "title": "Agrément",
+      "description": "Utilisation de l'agrément durant l'affaire",
+      "type": "boolean"
+    },
+    {
+      "name": "Etat",
+      "title": "Etat",
+      "type": "string",
+      "constraints": {
+        "enum" : [
+          "Terminée",
+          "En cours"
+        ]
+      }
+    },
+    {
+      "name": "Résolution",
+      "title": "Tags thématiques",
+      "type": "string",
+      "constraints": {
+        "enum" : [
+            "Classement sans suite",
+            "Non-lieu",
+            "Prescription",
+            "Mesures alternatives aux poursuites",
+            "Condamnation en 1ere instance",
+            "Condamnation en appel",
+            "Condamnation après cassation",
+            "Absence de suites",
+            "Relaxe en première instance",
+            "Relaxe en appel",
+            "Relaxe après cassation"
+        ]
+      }
+    },
+    {
+      "name": "Actes_Titre",
+      "type": "string"
+    },
+    {
+      "name": "URL_Web",
+      "title": "URL sur anticor.org",
+      "type": "string",
+      "format": "uri"
+    }
+  ],
+  "primaryKey": ["Titre"]
+}
